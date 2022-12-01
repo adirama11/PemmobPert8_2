@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity2">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:rotation="90"
+        android:src="@drawable/logores"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Login"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Selamat datang kembali, silahkan login"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Email"/>
+    <EditText
+        android:id="@+id/EmailUser"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Masukkan email"
+        android:background="@drawable/bg_rounded_ed"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:paddingEnd="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Password"/>
+    <EditText
+        android:id="@+id/PasswordUser"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan password"
+        android:background="@drawable/bg_rounded_ed"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingEnd="10dp"/>
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_rounded_btn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:paddingStart="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Belum punya akun? Daftar"/>
+
+</LinearLayout>
