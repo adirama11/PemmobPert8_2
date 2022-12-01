@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
+import android.widget.Toast
 import androidx.core.text.trimmedLength
 
 class RegisterActivity : AppCompatActivity() {
@@ -29,8 +30,15 @@ class RegisterActivity : AppCompatActivity() {
             val checkEmail = email.text.toString().trim()
             val checkPass = pass.text.toString().trim()
             val checkcekBox = checkBox.isChecked
-            if (checkUsername.isEmpty()){
 
+            if (checkUsername.isEmpty()){
+                username.error = "Username empty"
+            }else if(checkEmail.isEmpty()){
+                email.error = "Email Empty"
+            }else if(checkPass.isEmpty()){
+                pass.error = " Password Empty"
+            }else{
+                Toast.makeText(this, "Anda berhasil Register", Toast.LENGTH_LONG).show()
             }
         }
     }

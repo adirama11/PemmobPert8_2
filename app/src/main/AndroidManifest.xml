@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pert8_2">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".RegisterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
